@@ -4,7 +4,6 @@ description: 'Push NuGet Package'
 inputs:
   artifact:
     description: "Artifact Name"
-    required: true
   nuget-api-url:
     description: "NuGet URL"
     default: 'https://api.nuget.org/v3/index.json'
